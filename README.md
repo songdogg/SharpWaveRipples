@@ -1,7 +1,4 @@
 # SharpWaveRipples
-Source code for custom MATLAB scripts used in the undergraduate dissertation project **"The Properties and Behavioural Correlates of Human Hippocampal Sharp-Wave Ripples During an Associative Memory Task"**.
-
-# SharpWaveRipples
 Source code for custom MATLAB scripts used in the the undergraduate dissertation project **"The Properties and Behavioural Correlates of Human Hippocampal Sharp-Wave Ripples During an Associative Memory Task"**.
 
 In addition to the following custom MATLAB scripts, the NPMK and shadedErrorBar toolboxes, and a custom script for Morlet wavelet convolution were also used.

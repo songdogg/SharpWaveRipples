@@ -1,17 +1,17 @@
 # SharpWaveRipples
 Source code for custom MATLAB scripts used in the the undergraduate dissertation project **"The Properties and Behavioural Correlates of Human Hippocampal Sharp-Wave Ripples During an Associative Memory Task"**.
 
-In addition to the following custom MATLAB scripts, the NPMK and shadedErrorBar toolboxes, and a custom script for Morlet wavelet convolution were also used.
+In addition to the following custom MATLAB scripts, the NPMK and shadedErrorBar toolboxes, and a custom script for Morlet wavelet convolution (morletTF) written by Dr Daniel Bush (UCL) were also used.
 
 1. ripple_analysis.m              
---- Function to import raw .ns6 intracranial EEG data into MATLAB and identify sharp-wave ripples (SWRs). (See Section 2.4)
+--- Function to import raw .ns6 intracranial EEG data into MATLAB and identify candidate sharp-wave ripples (SWRs). (Section 2.4)
 2. wrapper_ripple_analysis.m      
 --- Wrapper script for ripple_analysis.m
 
 3. spike_analysis.m               
---- Function to analyse single neuron spiking data. (See Section 2.5)
+--- Function to analyse single neuron spiking data. (Section 2.5)
 4. task_analysis.m                
---- Function to analyse SWRs identified by ripple_analysis.m based on the portion of the associative memory task they occur in. (See section 2.6)
+--- Function to analyse SWRs identified by ripple_analysis.m based on the portion of the associative memory task they occur in. (Section 2.6)
 5. wrapper_task_spike_analysis.m  
 --- Wrapper script for task_analysis.m and spike_analysis.m
 
@@ -24,3 +24,5 @@ In addition to the following custom MATLAB scripts, the NPMK and shadedErrorBar 
 9. x_corr_calculate.m             
 --- Script for calculating cross correlation statistics (Section 3.2).
 
+NPMK toolbox: https://github.com/BlackrockNeurotech/NPMK
+shadedErrorBar: https://github.com/raacampbell/shadedErrorBar

@@ -24,5 +24,5 @@ In addition to the following custom MATLAB scripts, the NPMK and shadedErrorBar 
 9. x_corr_calculate.m             
 --- Script for calculating cross correlation statistics (Section 3.2).
 
-NPMK toolbox: https://github.com/BlackrockNeurotech/NPMK
+NPMK toolbox: https://github.com/BlackrockNeurotech/NPMK    
 shadedErrorBar: https://github.com/raacampbell/shadedErrorBar
